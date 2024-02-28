@@ -96,7 +96,7 @@ defmodule Groove.Sprints.Sprint do
     end
 
     create_timestamp :created_at
-    create_timestamp :updated_at
+    update_timestamp :updated_at
   end
 
   relationships do
